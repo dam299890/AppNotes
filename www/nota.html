@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/nota.css">
+        <title>MyNotes</title>
+    </head>
+    <body>
+        <header class="header">
+            <span class="icon-arrow_back_ios back"></span> <span class="icon-check guardar"></span>
+        </header>
+
+        <main>
+            <section class="info"><p class="data"></p></section>
+            <section class="notas">
+                <textarea class="textArea" id="nota" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+            </section>
+        </main>
+        <footer class="footer">
+            <span class="icon-image"></span>
+            <span class="icon-check-square"></span>
+            <span class="icon-apparel"></span>
+            <span class="icon-type"></span>
+            <span class="icon-radio"></span>
+        </footer>
+        
+
+        <script src="cordova.js"></script>
+        <script src="js/nota.js"></script>
+    </body>
+</html>

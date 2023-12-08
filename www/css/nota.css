@@ -1,0 +1,45 @@
+.header{
+    padding-top: 2rem;
+    margin: 0 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3rem;
+    color: rgb(255 192 0);;
+}
+
+.info{
+    width: 90vw;
+    font-size: 1.5rem;
+    border: none;
+    height: 5vh;
+    margin: 5px auto 0 auto;
+    color: rgb(160, 155, 155);
+}
+.textArea{
+    caret-color: rgb(255 192 0);
+    border: none;
+    background-color: #fafafa;
+    width: 90%;
+    min-height: 80%;
+    max-height: max-content;
+}
+
+.textArea:focus-visible{
+    outline: none;
+}
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3rem;
+    bottom: 5%;
+    background-color: #fafafa;
+    
+}
